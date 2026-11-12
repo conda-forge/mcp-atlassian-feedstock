@@ -1,5 +1,5 @@
 context:
-  version: "0.24.2"
+  version: "0.24.3"
 
 package:
   name: mcp-atlassian
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/mcp-atlassian/mcp_atlassian-${{ version }}.tar.gz
-  sha256: ef690378cf120c8900bce539b2c950fd639eae72ec1c3ab0a1743fefa1da95cc
+  sha256: 1ffe97f4d1e96f47708323feab8ce67f6a7471bff99efcdead4844c376ad4466
 
 build:
   script: python -m pip install . -vv --no-deps --no-build-isolation
